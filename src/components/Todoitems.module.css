@@ -1,0 +1,46 @@
+.item {
+  width: 100%;
+  max-width: 100%;
+  color: beige;
+  font-size: 20px;
+  font-family: monospace;
+  margin: 0 auto;
+  padding: 5px 0;
+  font-weight: lighter;
+}
+
+.itemname {
+  font-weight: lighter;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+  word-break: break-word;
+}
+
+.line {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, #ff1493, #ff69b4, #ff1493);
+  margin: 5px auto;
+  width: 100%;
+}
+.deleteButton {
+  background: rgba(255, 0, 0, 0.2);
+  border: 1px solid #ff4444;
+  color: #ff8888;
+  padding: 5px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+.deleteButton:hover {
+  background: rgba(255, 0, 0, 0.6);
+  color: white;
+  transform: scale(1.05);
+}
+.completed {
+  text-decoration: line-through;
+  color: #888888;
+}

@@ -1,0 +1,21 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(145deg, #ff1493, #c71585);
+  padding: 10px;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+.footertext {
+  font-weight: bold;
+  margin-top: auto;
+  font-family: monospace;
+  text-shadow:
+    2px 2px 0 #8b008b,
+    2px 2px 0 #4b0082;
+}

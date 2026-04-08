@@ -1,0 +1,20 @@
+.lists {
+  background-color: rgba(20, 20, 50, 0.6);
+  border-radius: 15px;
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  width: 1100px;
+  margin: 20px auto 0;
+  padding: 20px;
+  color: white;
+  font-family: monospace;
+  font-weight: lighter;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.lists:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,62 @@
+.todoform {
+  background: rgba(9, 9, 56, 0.6);
+  padding: 60px;
+  width: 1100px;
+  border-radius: 25px;
+  box-shadow:
+    0 8px 15px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+  margin-top: 250px;
+}
+.todoinput {
+  flex: 1;
+  padding: 15px 20px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid #ff1493;
+  background: rgba(20, 20, 50, 0.6);
+  color: white;
+  font-family: monospace;
+  box-shadow:
+    0 5px 15px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+.todoinput:focus {
+  border-color: #ff69b4;
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.submitbutton {
+  background: linear-gradient(145deg, #ff1493, #c71585);
+  margin-top: 10px;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-shadow: 1px 1px 0 #8b008b;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.submitbutton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(145deg, #ff69b4, #ff1493);
+}
+
+.submitbutton:active {
+  transform: translateY(2px);
+}
+.formcontainer {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  align-items: center;
+}

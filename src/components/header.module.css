@@ -1,0 +1,14 @@
+.header {
+  background: linear-gradient(145deg, #ff1493, #c71585);
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow:
+    3px 3px 0 #8b008b,
+    6px 6px 0 #4b0082;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 20px 20px;
+  letter-spacing: 2px;
+}
